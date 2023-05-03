@@ -78,6 +78,13 @@ a.nav-item:hover {
 	margin-bottom: 2rem;
 }
 
+.subtitle {
+	color: #fff;
+	font-size: 30px;
+	font-weight: 600;
+	margin-bottom: 5px;
+}
+
 .intro {
 	text-align: justify;
 	width: 80%;
