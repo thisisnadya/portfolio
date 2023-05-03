@@ -1,4 +1,4 @@
-runtime: python
+runtime: nodejs10
 
 # handlers:
 #   - url: /.*
