@@ -1,6 +1,12 @@
-runtime: nodejs14
+runtime: python27
+api_version: 1
+threadsafe: true
 
 handlers:
-  - url: /.*
-    script: auto
-    secure: always
+- url: /
+  static_files: portfolio/index.html
+  upload: portfolio/index.html
+
+- url: /(.*)
+  static_files: portfolio/\1
+  upload: portfolio/(.*)
