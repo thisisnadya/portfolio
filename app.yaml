@@ -1,6 +1,6 @@
-runtime: nodejs10
+runtime: nodejs14
 
-# handlers:
-#   - url: /.*
-#     script: auto
-#     secure: always
+handlers:
+  - url: /.*
+    script: auto
+    secure: always
